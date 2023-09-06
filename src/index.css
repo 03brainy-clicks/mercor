@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+.mulish {
+  font-family: 'Mulish', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.rays {
+  background-image: url("./assets/backlines.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.agrandir {
+  font-family: "Agrandir", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+  font-family: 'Agrandir'; /* Specify a name for your custom font */
+  src: url('./assets/Agrandir-Font-Family/Agrandir/Agrandir-Regular.otf') format('opentype');
+  font-weight: normal; /* Specify the font weight for regular style */
+  font-style: normal; /* Specify the font style for regular style */
+}@font-face {
+  font-family: 'Agrandir'; /* Specify a name for your custom font */
+  src: url('./assets/Agrandir-Font-Family/Agrandir/Agrandir-GrandHeavy.otf') format('opentype');
+  font-weight: 900; /* Specify the font weight for regular style */
+  font-style: normal; /* Specify the font style for regular style */
+}@font-face {
+  font-family: 'Agrandir'; /* Specify a name for your custom font */
+  src: url('./assets/Agrandir-Font-Family/Agrandir/Agrandir-GrandLight.otf') format('opentype');
+  font-weight: 100; /* Specify the font weight for regular style */
+  font-style: normal; /* Specify the font style for regular style */
+}@font-face {
+  font-family: 'Agrandir'; /* Specify a name for your custom font */
+  src: url('./assets/Agrandir-Font-Family/Agrandir/Agrandir-Regular.otf') format('opentype');
+  font-weight: normal; /* Specify the font weight for regular style */
+  font-style: normal; /* Specify the font style for regular style */
 }
